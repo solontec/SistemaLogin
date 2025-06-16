@@ -4,7 +4,7 @@ import bcrypt
 import os
 
 app = Flask(__name__)
-app.secret_key = 'uma_chave_secreta_bem_longa_e_aleatoria_para_proteger_suas_sessoes' # ALtere esta chave em produção
+app.secret_key = '' 
 DB_NAME = 'users.db'
 
 def get_db_connection():
